@@ -62,7 +62,7 @@ server:
   adminConnectors:
       # HTTP POST to /tasks/reload-ssl to reload SSL certificates without stopping.
       - type: http
-        port: 8081
+        port: 8088
                     
 viewRendererConfiguration:
   freemarker:  # was `.ftl:` before Dropwizard 1.3.0
